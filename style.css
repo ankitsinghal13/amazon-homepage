@@ -182,3 +182,10 @@
     position: relative;
     left : 110px;
 }
+
+.backimg{
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/Shankhadip/AugART26/8_PM_Ends_tonight_H1_AugART26_8_PM_deals_Unrec_2x._CB755896875_.jpg);
+}
