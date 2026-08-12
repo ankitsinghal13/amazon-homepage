@@ -44,3 +44,73 @@
 .update .icon {
     transform: scale(1.2);
 }
+
+.search {
+    display : flex;
+    height : 40px;
+    border : none;
+    margin-left : 30px;
+    width: 550px;
+
+}
+
+.search select {
+    width : 50px;
+    background-color: antiquewhite;
+    color: rgba(0, 0, 0, 0.565);
+    font-size:smaller ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search input {
+    width : 100%;
+
+}
+
+.searchicon {
+    width : 65px;
+    border : none;
+    height : 30 px;
+    background-color: rgb(199, 163, 43);
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.account {
+    margin-left: 30px;
+}
+
+.account p {
+    color : white;
+    font-size: 12px;
+    
+    padding-left: 5px;
+}
+
+.account select {
+    background-color: #0f1111;
+    color: white;
+    font-weight: bold;
+    border : none;
+}
+
+.ret {
+    color : white;
+    margin-left: 30px;
+}
+
+.returns{
+    font-size: 12px;
+
+}
+
+.orders{
+    color: white;
+    font-weight: bold;
+    
+}
