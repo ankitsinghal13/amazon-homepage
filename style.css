@@ -132,3 +132,20 @@
     bottom: 3px;
     font-weight: bold;
 }
+
+/* .border {
+    border : 1px solid white;
+    opacity: 0;
+} */
+
+.border:hover {
+    border : 2px solid white;
+    opacity: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.active:hover{
+    border: 2px solid #d7be30;
+    border-radius: 5px;
+}
