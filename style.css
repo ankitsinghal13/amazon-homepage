@@ -180,14 +180,21 @@
     background-size: cover;
     height : 39px;
     position: relative;
-    left : 110px;
+    left : 95px;
 }
 
-.backimg{
+.backimg {
     width: 100%;
-    height: 450px;
-    background-size: cover;
-    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/Shankhadip/AugART26/8_PM_Ends_tonight_H1_AugART26_8_PM_deals_Unrec_2x._CB755896875_.jpg);
+    height: 700px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-image:
+        linear-gradient(
+            to bottom,
+            transparent 20%,
+            #dfe3e3 65%
+        ),
+        url(https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/Shankhadip/AugART26/8_PM_Ends_tonight_H1_AugART26_8_PM_deals_Unrec_2x._CB755896875_.jpg);
 }
 
 .links {
@@ -216,14 +223,6 @@ p {
     margin-top: 25px;
 }
 
-.bottom {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.bottom p {
-    color: white;
-}
 
 .footer {
     background-color: #232f3e;
@@ -258,3 +257,55 @@ a:hover {
     text-decoration: underline;
 }
 
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    background-color: #e3e6e6;
+    position: relative;
+    z-index: 5;
+    margin-top: -400px;
+    background: #dfe3e3;
+}
+
+.card {
+    background-color: white;
+    width: 25%;
+    padding: 20px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.items img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.items p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #022222;
+}
+
+.card a {
+    display: block;
+    margin-top: 25px;
+    color: #2162a1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
