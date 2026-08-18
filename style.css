@@ -189,3 +189,72 @@
     background-size: cover;
     background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/IN-Events/Shankhadip/AugART26/8_PM_Ends_tonight_H1_AugART26_8_PM_deals_Unrec_2x._CB755896875_.jpg);
 }
+
+.links {
+    background-color: #131a22;
+    color: white;
+    padding: 40px;
+    font-size: small;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #aaa;
+    margin-top: 0;
+}
+
+.links h3:not(:first-child) {
+    margin-top: 25px;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bottom p {
+    color: white;
+}
+
+.footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 60px 11%;
+    font-size: small;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div {
+    width: 20%;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
